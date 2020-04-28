@@ -1,0 +1,188 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.big-heading{
+  font-size: 3.5rem;
+}
+/***************ID Selectors****************/
+#title {
+  background-color: #FF4C68;
+  color: white;
+  /* position: absolute;
+  z-index: -1; */
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 5%;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: white;
+}
+
+.cta-h3{
+  font-size: 3rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #FFF;
+  padding-top: 6%;
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 0.8rem;
+}
+
+.fdiv{
+  padding: 0.5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-text{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.fsocial{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+}
+
+#pricing{
+ padding:100px;
+ text-align: center;
+}
+
+.pricing-text{
+  font-size: 3rem;
+}
+
+.price-heading{
+  font-size: 1.5rem;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%;
+}
+
+@media (max-width:996px) {
+  .title-image{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+.card-header{
+  font-weight: 900;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*******Navigation Bar*******/
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.box-item{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.box-encompass{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.box_para{
+  color: #8f8f8f;
+}
+
+.fas{
+  color: #ef8172;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
